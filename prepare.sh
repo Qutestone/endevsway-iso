@@ -18,7 +18,7 @@ get_pkg() {
     && sudo chown $USER:$USER "airootfs/root/packages/"*".pkg.tar"*
 }
 
-get_pkg "endeavouros-skel-xfce4"
+get_pkg "eos-skel-ce-sway"
 
 # Build liveuser skel
 cd "airootfs/root/endeavouros-skel-liveuser"

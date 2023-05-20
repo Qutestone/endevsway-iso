@@ -50,6 +50,8 @@ bind '"\e[B":history-search-forward'
 ##
 ## October 2021: removed many obsolete functions. If you still need them, please look at
 ## https://github.com/EndeavourOS-archive/EndeavourOS-archiso/raw/master/airootfs/etc/skel/.bashrc
+# local bin folder
+export PATH="$HOME/.local/share/bin:$PATH"
 
 _open_files_for_editing() {
     # Open any given document file(s) for editing (or just viewing).
