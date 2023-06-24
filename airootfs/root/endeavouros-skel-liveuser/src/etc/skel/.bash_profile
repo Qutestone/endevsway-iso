@@ -2,6 +2,8 @@
 # ~/.bash_profile
 #
 
+export PATH="$HOME/.local/share/bin:$PATH"
+
 [[ -f ~/.bashrc ]] && . ~/.bashrc
 
 
